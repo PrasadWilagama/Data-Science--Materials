@@ -1,0 +1,7 @@
+Database vs Data Warehouse vs Data Lake
+
+Database (typically referring to a relational database), designed to capture and record data, the data can be live, real-time, and highly detailed; with a flexible scheme, easily change things as you go. Work slowly for querying large amounts of data. 
+
+Data Lake, designed to capture any kind of raw data (including video, image, and document…), made for large amounts of data; ML/ AI projects can leverage it by using the unstructured and structured data to create the models in their raw forms (but may not the best choice for analytical projects).
+
+Data Warehouse, designed for analytical processing (usually for huge amounts of data), data is refreshed periodically from source systems (such as the databases aggregate and send the data to the warehouse via ETL process, being updated as it goes); has historical data, but needs ETL process runs frequently to have the current data; data is summarized for analysis propose; rigid schema. Generally faster since it doesn’t interfere with any processes. 
